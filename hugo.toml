@@ -81,9 +81,9 @@ url = "tags"
 
 
 
-[params.homeInfoParams]
-Title = "Hi there 👋"
-Content = "Welcome to my blog"
+#[params.homeInfoParams]
+#Title = "Hi there 👋"
+#Content = "Welcome to my blog"
 
 
 
