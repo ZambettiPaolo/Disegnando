@@ -62,7 +62,7 @@ iconHeight = 35
 
 
 [params.profileMode]
-enabled = true
+enabled = false
 title = "Disegnando"
 subtitle = "Blog di Paolo Zambetti"
 imageUrl = "/images/foto_tessera.png"
@@ -82,25 +82,37 @@ url = "tags"
 
 
 
-#[params.homeInfoParams]
-#Title = "Hi there 👋"
-#Content = "Welcome to my blog"
+[params.homeInfoParams]
+Title = "La bellezza e la tecnica"
+Content = """
+Benvenuto. Qui puoi trovare approfondimenti sulla progettazione tecnica con una particolare attenzione all'estetica. 
 
+Ti sarà capitato di sentir parlare della dicotomia tra arte e tecnica come di due mondi separati e vissuti da persone diverse con pratiche opposte: pittori da un lato e ingegneri dall'altro, poesia contro matematica. E' una visione particolarmente ingenua, soprattutto in Italia, dove ha vissuto l'artista ingegnere più famoso della storia: Leonardo Da Vinci!
+
+A prima vista il disegno tecnico sembra una disciplina asettica e priva di emozioni, la cui funzione è veicolare informazioni principalmente geometriche. In realtà in ogni prodotto umano c'è almeno un briciolo di creatività e nel disegno tecnico ne serve molta. 
+
+Quello che cambia è il modo in cui questa si esprime: l'artista elabora le sue idee in uno spazio libero vuoto immacolato, mentre il tecnico lo fa in uno spazio formalizzato pieno di vincoli fisici, economici, ecc. Per molti questo spazio è soffocante, ma i tecnici lo trovano stimolante. Un po' come un gioco che ha senso solo in virtù delle sue regole.
+
+L'estetica è lo strumento perfetto per esplorare lo spazio delle soluzioni. La ricerca della bellezza ti costringe ad analizzare profondamente la funzione, a rivedere le forme o trovarne di nuove. Un progetto elegante porterà gli utenti ad essere positivamente coinvolti e partecipi. 
+Esprimi il meglio di te e costruisci la tua reputazione.
+
+Buon disegno.  
+"""
 
 
 [[params.socialIcons]]
-name = "x"
-url = "https://x.com/"
+name = "linkedin"
+url = "https://linkedin.com/in/paolo-zambetti"
 
 
 [[params.socialIcons]]
-name = "stackoverflow"
-url = "https://stackoverflow.com"
+name = "youtube"
+url = "https://youtube.com/@Disegnando-z2u"
 
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/"
+url = "https://github.com/ZambettiPaolo"
 
 
 
@@ -155,11 +167,11 @@ url = "/tags/"
 weight = 20
 
 
-[[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
+#[[menu.main]]
+#identifier = "example"
+#name = "example.org"
+#url = "https://example.org"
+#weight = 30
 
 
 
