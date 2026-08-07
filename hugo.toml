@@ -24,22 +24,22 @@ description = "Blog di Paolo Zambetti"
 keywords = ["Blog", "Portfolio", "PaperMod"]
 author = "Paolo Zambetti"
 # author = ["Me", "You"]
-images = ["<link or path of image for opengraph, twitter-cards>"]
+images = ["/images/disegnando_open_graph.png"]
 DateFormat = "02/01/2006"
 
-defaultTheme = "light"
+defaultTheme = "auto"
 disableThemeToggle = false
 
 ShowReadingTime = true
-ShowShareButtons = false
+ShowShareButtons = true
 ShowPostNavLinks = true
-ShowBreadCrumbs = false
+ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
-ShowWordCount = true
+ShowWordCount = false
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
-disableScrollToTop = false
+disableScrollToTop = true
 comments = false
 hidemeta = false
 hideSummary = false
@@ -48,18 +48,17 @@ tocopen = false
 
 
 [params.assets]
-favicon = "<link / abs url>"
-favicon16x16 = "<link / abs url>"
-favicon32x32 = "<link / abs url>"
-apple_touch_icon = "<link / abs url>"
-safari_pinned_tab = "<link / abs url>"
+favicon = "/images/icon2-64x64.png"
+favicon16x16 = "/images/icon2-16x16.png"
+favicon32x32 = "/images/icon2-32x32.png"
+apple_touch_icon = "/images/icon2-180x180.png"
+#safari_pinned_tab = "<link / abs url>"
 
 
 [params.label]
-text = "Home"
-icon = "/apple-touch-icon.png"
-iconHeight = 35
-
+text = "Disegnando"
+icon = "/images/icon2-home.png"
+iconHeight = 72
 
 [params.profileMode]
 enabled = false
@@ -83,7 +82,7 @@ url = "tags"
 
 
 [params.homeInfoParams]
-Title = "La bellezza e la tecnica"
+Title = "Estetica e tecnica"
 Content = """
 Benvenuto. Qui puoi trovare approfondimenti sulla progettazione tecnica con una particolare attenzione all'estetica. 
 

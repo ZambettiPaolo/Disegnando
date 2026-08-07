@@ -6,8 +6,8 @@
     <description>Recent content on Disegnando</description>
     <image>
       <title>Disegnando</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/images/disegnando_open_graph.png</url>
+      <link>http://localhost:1313/images/disegnando_open_graph.png</link>
     </image>
     <generator>Hugo</generator>
     <language>it-it</language>
