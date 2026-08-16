@@ -127,9 +127,9 @@ SiteVerificationTag = "XYZabc"
 
 
 [params.cover]
-hidden = true
-hiddenInList = true
-hiddenInSingle = true
+hidden = false
+hiddenInList = false
+hiddenInSingle = false
 
 
 
@@ -179,3 +179,8 @@ pygmentsUseClasses = true
 
 [markup.highlight]
 noClasses = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
