@@ -3,16 +3,16 @@ date = '2026-08-08T22:01:32+02:00'
 draft = true
 title = 'Il cuneo'
 math = true
-description = "Un semplice meccanismo applicabile in molti problemi"
+description = "Un semplice meccanismo applicabile a molti problemi"
 summary = ""
 
-categories = ["Mi sembra il minimo"]
-tags = ["meccanismi"]
+categories = ["Meccanismi"]
+tags = ["attrito"]
 
 author = "Paolo Zambetti"
 
 [cover]
-image = "Cuneo1.svg"
+image = "Cuneo_copertina.svg"
 alt = "cuneo"
 caption = ""
 relative = true
@@ -24,49 +24,47 @@ ShowToc = true
 TocOpen = false
 +++
 
-### Introduzione
-
-Probabilmente avrai già avuto a che fare con i cunei, vengono spesso usati per bloccare le porte aperte. E' un dispositivo molto diffuso semplice e multiforme che ho utilizzato frequentemente anche involontariamente. Partiamo dalla forma più comune, un sistema meccanico formato da un telaio, un  cursore e un cuneo. Lo scopo principale è usare la forza di uscita per bloccare o pinzare. Il funzionamento è abbastanza intuitivo ma per capirlo in modo approfondito e sfruttarne tutte le potenzialità sono necessarie un po di fisica e matematica. 
+Probabilmente avrai già avuto a che fare con i cunei, vengono spesso usati per bloccare le porte aperte. E' un dispositivo molto diffuso semplice e multiforme che ho utilizzato spesso e anche involontariamente. Ti propongo, per iniziare, questo utilissimo sistema meccanico formato da un **telaio**, un  **cursore** e un **cuneo**. Lo scopo è bloccare\sbloccare un **pezzo**. Il funzionamento è abbastanza intuitivo ma per capirlo in modo approfondito, dimensionarlo correttamente, e sfruttarne tutte le potenzialità, sono necessarie un po' di fisica e matematica. 
 
 ### Analisi del cuneo senza attrito
 
 ![cuneo senza attrito](/cuneo_senza_attrito.svg)
 
-Procediamo analizzando prima il sistema senza attrito: applicando una forza $ F_1 $ al cuneo si ottiene il moto verso l'alto del cursore fino a quando la forza $ F_2 $ non riequilibra il sistema. Scriviamo le equazioni di equilibrio orizzontali e verticali che agiscono sul cuneo.
+Procediamo analizzando prima il sistema senza attrito. Applicando una forza $ F_1 $ al cuneo si ottiene il moto verso l'alto del cursore fino a quando la forza $ F_2 $ non riequilibra il sistema. Scriviamo le equazioni di equilibrio orizzontali e verticali che agiscono sul cuneo.
 
 $$
-F_1-F_3 sen(\alpha) = 0
+F_1-F_3 \sin(\alpha) = 0
 $$
 $$
-F_2-F_3 cos(\alpha) = 0
+F_2-F_3 \cos(\alpha) = 0
 $$
 da cui otteniamo:
 $$
-\frac{F_2}{F_1} = \frac{cos(\alpha)}{sen(\alpha)}
+\frac{F_2}{F_1} = \frac{\cos(\alpha)}{\sin(\alpha)}
 $$
 esprimendo $ F_2 $ in funzione di $ F_1 $ si ha:
 $$
-\boxed{F_2 = F_1cotg(\alpha)}
+\boxed{F_2 = F_1\cot(\alpha)}
 $$
-Vediamo il grafico di $F_2$ al variare di $\alpha$ per $F_1=1$
-![grafico della funzione cotg()](/cotg.png)
-Come vedi per angoli $ \alpha $ che tendono a 0 allora $ F_2 $ tende a infinito. Con un anglo di 45° viene trasmessa la stessa forza e con un angolo di 90° non viene trasmessa alcuna forza. Da questa prima analisi sembra che si possano ottenere forze in uscita molto elevate. Per esempio con un angolo di 5,7°si ottiene una forza 10 volte superiore. Il moto retrogrado è semplicemente dato dalla funzione inversa. Tuttavia considerando gli attriti il risultato cambia  di molto.
+<br>
+Grafico di $F_2$ al variare di $\alpha$ per $F_1=1$ e $\varphi=20°$
+![grafico della funzione cot()](/cotg.png)
+Come vedi per angoli $ \alpha $ che tendono a 0 allora $ F_2 $ tende a infinito. Con un angolo di 45° viene trasmessa la stessa forza e con un angolo di 90° non viene trasmessa alcuna forza. Da questa prima analisi sembra che si possano ottenere forze in uscita molto elevate. Per esempio con un angolo di 5,7° si ottiene una forza 10 volte superiore. Il moto retrogrado è semplicemente dato dalla funzione inversa. Tuttavia considerando gli attriti il risultato cambia di molto e in modo diverso per il moto diretto e retrogrado.
 
-
-
-
-
+<br>
 
 ### Aggiungiamo gli attriti al moto diretto
+
 ![tutte le forze](/cuneo_completo.svg)
-Le forze d'attrito hanno un ruolo fondamentale nel funzionamento del cuneo. Le superfici inclinate del cuneo e del cursore sono soggette a due forze tangenti uguali e opposte, proporzionali, tramite un coefficiente d'attrito $\mu$, alla forza di contatto normale $F_3$.
 
-Trascuriamo ancora tutti gli altri attriti che esistono in un caso reale ma che complicherebbero inutilmente l'analisi. Procediamo quindi come prima, aggiungendo le componenti della forza d'attrito alle equazioni di equilibrio.
+Le forze d’attrito svolgono un ruolo fondamentale nel funzionamento del cuneo. Sulle superfici inclinate a contatto tra il cuneo e il cursore agiscono due forze d’attrito tangenziali, di uguale intensità e verso opposto. Il loro modulo è proporzionale alla forza normale di contatto $F_3$, secondo la relazione:  $ F_a=\mu F_3$ dove $\mu$ rappresenta il coefficiente d’attrito.
 
-Le equazioni di equilibrio delle forze diventano:
-Per completare l'analisi aggiungiamo tutte le forze di un sistema reale 
-Questa volta ci servono anche le equazioni di equilibrio di tutto il sistema perche abbiamo due nuove forze incognite $ F_4 $ e $ F_5 $ proprio a causa dei nuovi attriti.
+È necessario considerare anche le forze d’attrito associate alle reazioni vincolari esercitate dal telaio, indicate con $F_4$ e$ F_5 $. A causa dell’attrito, diversamente dal caso precedente, queste forze non possono essere considerate semplicemente uguali e opposte alle forze $F_1$ e $F_2$.
 
+Per determinare tutte le forze coinvolte nel sistema è quindi necessario imporre sia le condizioni di equilibrio sul cuneo sia sul sistema cuneo-cursore.
+
+
+Le equazioni di equilibrio sul sistema cuneo-cursore sono:
 $$
 F_1-F_4-\mu F_5= 0
 $$
@@ -74,7 +72,9 @@ $$
 $$
 F_2-F_5+\mu F_4 = 0
 $$
-mentre qui abbiamo le equazioni all'equilibrio sul cuneo
+
+Queste sono le equazioni di equilibrio sul cuneo:
+
 $$
 F_1-F_3\sin(\alpha)-\mu F_3\cos(\alpha)-\mu F_5 =0
 $$
@@ -155,7 +155,7 @@ quindi:
 
 $$
 \boxed{
-F_4=F_3\left[\sin(\alpha)+\mu\cos(\alpha)\right]
+F_4=F_3[\sin(\alpha)+\mu\cos(\alpha)]
 }
 $$
 
@@ -176,8 +176,7 @@ Sostituendo l'espressione di $F_4$:
 
 $$
 F_2=
-F_3\cos(\alpha)-\mu F_3\sin(\alpha)
--\mu F_3\left[\sin(\alpha)+\mu\cos(\alpha)\right]
+F_3\cos(\alpha)-\mu F_3\sin(\alpha)-\mu F_3[\sin(\alpha)+\mu\cos(\alpha)]
 $$
 
 Sviluppando:
@@ -235,28 +234,29 @@ Questa sostituzione è particolarmente utile perché permette di combinare, attr
 
 
 Sostituendo $\mu=\tan(\varphi)$:
+
 $$
-\frac{(1-\tan^2\varphi)\cos(\alpha)-2\tan\varphi\sin(\alpha)}{(1-\tan^2\varphi)\sin(\alpha+2\tan\varphi\cos(\alpha)}
+\frac{(1-\tan^2(\varphi))\cos(\alpha)-2\tan(\varphi)\sin(\alpha)}{(1-\tan^2(\varphi))\sin(\alpha)+2\tan(\varphi)\cos(\alpha)}
 $$
 
 Moltiplichiamo numeratore e denominatore per $\cos^2(\varphi)$:
 $$
-\frac{(\cos^2\varphi-\sin^2\varphi)\cos(\alpha)-2\sin\varphi\cos\varphi\sin(\alpha)}{(\cos^2\varphi-\sin^2\varphi)\sin(\alpha)+2\sin\varphi\cos\varphi\cos(\alpha)}
+\frac{(\cos^2(\varphi)-\sin^2(\varphi))\cos(\alpha)-2\sin(\varphi)\cos(\varphi)\sin(\alpha)}{(\cos^2(\varphi)-\sin^2(\varphi))\sin(\alpha)+2\sin(\varphi)\cos(\varphi)\cos(\alpha)}
 $$
 
 Utilizziamo le identità:
 
 $$
-\cos^2\varphi-\sin^2\varphi=\cos(2\varphi)
-$$
+\cos^2(\varphi)-\sin^2(\varphi)=\cos(2\varphi)
+$$mente anche involontariamente.
 
 $$
-2\sin\varphi\cos\varphi=\sin(2\varphi)
+2\sin(\varphi)\cos(\varphi)=\sin(2\varphi)
 $$
 
 ottenendo:
 $$
-\frac{\cos(\alpha)\cos(2\varphi)-\sin(\alpha)\sin(2\varphi)}{\sin(\alpha)\cos(2\varphi)+\cos(\alpha\sin(2\varphi)
+\frac{\cos(\alpha)\cos(2\varphi)-\sin(\alpha)\sin(2\varphi)}{\sin(\alpha)\cos(2\varphi)+\cos(\alpha)\sin(2\varphi)
 }
 $$
 
@@ -291,14 +291,17 @@ F_2=F_1\cot(\alpha+2\varphi)
 }
 $$
 
-Il risultato mostra quindi che l'introduzione dell'attrito modifica la funzione precedente attraverso una **traslazione angolare** di ampiezza $ 2\varphi $. In particolare, con $ \varphi >0 $, la funzione trasla a sinistra eliminando dalle soluzioni l'infinito e gli alti rapporti di trasmissione. Inoltre a destra la funzione diventa negativa che significa che il moto è possibile solo se $ F_2 $ è diretta verso l'alto.
+Il risultato mostra quindi che l'introduzione dell'attrito modifica la funzione precedente attraverso una **traslazione angolare** di ampiezza $ 2\varphi $. In particolare, con $ \varphi >0 $, la funzione trasla a sinistra eliminando dalle soluzioni l'infinito e gli alti rapporti di trasmissione. Inoltre a destra la funzione diventa negativa che significa che li il moto è possibile solo se $ F_2 $ è diretta verso l'alto.
 
+Grafico dell equazione (1) in funzione di $\alpha$ con $ F_1=1 $ e $\varphi=10°$.
 ![grafico cuneo con attrito](/cuneo_attrito.png)
-Anche con bassi coefficenti d'attrito il rapporto di trasmissione crolla drasticamente  :
+Anche con bassi coefficienti d'attrito il rapporto di trasmissione crolla drasticamente.
+
+<br>
 
 ### Moto retrogrado con gli attriti
 ![tutte le forze moto retrogrado](/cuneo_completo_retrogrado.svg)
-Nel caso del moto retrogrado cioè quando la forza è applicata al cursore e il cuneo si muuove verso sinistra allora la forza d'attrito si inverte e le equazioni di equilibrio diventano: 
+Nel caso del moto retrogrado cioè quando la forza è applicata al cursore e il cuneo si muove verso sinistra allora la forza d'attrito si inverte e le equazioni di equilibrio diventano: 
 
 
 $$
@@ -328,16 +331,18 @@ F_2=F_1\cot(\alpha-2\varphi)
 $$
 >Negli schemi ho indicato sempre $F_1 $ con il verso a destra. Questo comporta l'esistenza di valori negativi di $ F_1 $. Il segno meno indica semplicemente che la forza deve essere applicata nel verso opposto rispetto allo schema.
 
+<br>
+
 ### Considerazioni sulla simmetria
 
-Come è chiaramente visibile dal grafico esiste una simmetria tra moto diretto e retrogrado. Infatti anche il meccanismo è simmetrico per $ \alpha = 45°$ e in effetti questo dimostra in parte la validità delle equazioni.
+Come puoi vedere chiaramente dal grafico esiste una simmetria tra moto diretto e retrogrado. Infatti anche il meccanismo è simmetrico per $ \alpha = 45°$ e in effetti questo dimostra in parte la validità delle equazioni.
 Possiamo quindi limitare lo studio all'intervallo tra 0 e 45° che è anche quello ci interessa applicare alla soluzione reale.
-Sovrapponiamo i grafici delle sue funzioni considerando però che dobbiamo invertire la funzione perché la forza in ingresso è $ F_2 $
+Sovrapponiamo i grafici delle sue funzioni considerando però che **dobbiamo invertire la funzione perché la forza in ingresso è $ F_2 $:**
 
 $$
 (2) 
 \boxed{
-F_1=F_2\tg(\alpha-2\varphi)
+F_1=F_2\tan(\alpha-2\varphi)
 }
 $$
 Grafico con le due funzioni sovrapposte
@@ -347,67 +352,78 @@ Grafico con le due funzioni sovrapposte
 
 Da notare la simmetria rispetto a 45° e gli zeri a 20° e 70°
 
+<br>
 
 ### Attrito statico e dinamico
-Come sapete ci sono due tipi di attrito radente: l'attrito statico e l'attrito dinamico. Il primo si genera quando dobbiamo mettere in movimento un corpo mentre il secondo agisce sui corpi in movimento. Entrambi hanno un effetto sul funzionamento del cuneo. Dipendono dai materiali, dalle finiture superficiali, dalla presenza o meno della lubrificazione e altro.
+Come sai ci sono due tipi di attrito radente: l'attrito statico e l'attrito dinamico. Il primo si genera quando dobbiamo mettere in movimento un corpo mentre il secondo agisce sui corpi in movimento. Entrambi hanno un effetto sul funzionamento del cuneo. Dipendono dai materiali, dalle finiture superficiali, dalla presenza o meno della lubrificazione e altro.
 
-Ora per evitare confusione definiamo queste due nuove forze. La forza di blocco $ F_b $ e la forza di sblocco $ F_s $ che sostituiscono $F_1$ rispettivamente nella (1) e nella (2). Introduciamo anche i due angoli d'attrito statico $\varphi_s$ e dinamico $\varphi_d$  e otteniamo le seguenti equazioni:
+Ora per evitare confusione definiamo due nuove forze. La forza di blocco $ F_b $ e la forza di sblocco $ F_s $ che sostituiscono $F_1$ rispettivamente nella (1) e nella (2). Introduciamo anche i due angoli d'attrito statico $\varphi_s$ e dinamico $\varphi_d$  e otteniamo le seguenti equazioni:
 
 $$
 (3) F_2=F_b\cot(\alpha+2\varphi_d)
 $$
 
 $$
-(4) F_s=F_2\tg(\alpha-2\varphi_s)
+(4) F_s=F_2\tan(\alpha-2\varphi_s)
+$$
+
+Dalla (4) possiamo ricavare che **il moto retrogrado è impossibile per $\alpha-2\varphi_s<0$ quindi:**
+
+$$
+\boxed{ \alpha<2\varphi_s }
 $$
 
 Nel meccanismo che stiamo studiando ci aspettiamo queste quattro fasi: 
 1. Posizione iniziale, il dispositivo non blocca il pezzo, il cuneo è estratto;
-2. Il cuneo viene inserito con una una forza $ F_b $ il cursore sale fino ad annullare il gioco con il pezzo. La forza risultante $ F_2$ e data dall'eq.1 con un coefficiente d'attrito dinamico;
-3. La rimozione della forza $ F_1 $. Il pezzo rimane bloccato anche applicando ulteriori carichi al pezzo. Questo però è possibile solo scegliendo un opportuno angolo  $ \alpha $;
-4. Sblocco del pezzo. Rimuovendo il cuneo applicando una forza $ F_s $ di direzione opposta $ F_b $. Stavolta per muovere il cuneo dobbiamo vincere la forza d'attrito statico generata dal precarico $ F_2 $. Possiamo ricavare questa forza dall'eq. 2;
+2. Il cuneo viene inserito con una una forza $ F_b $ il cursore sale fino ad annullare il gioco con il pezzo. La forza risultante $ F_2$ e data dalla (3) con un coefficiente d'attrito dinamico;
+3. La rimozione della forza $ F_b $. Il pezzo rimane bloccato anche applicando ulteriori carichi al pezzo. Questo però è possibile solo scegliendo un opportuno angolo  $ \alpha $;
+4. Sblocco del pezzo. Per rimuovere il cuneo bisogna applicare una forza $ F_s $ di direzione opposta $ F_b $. Dobbiamo vincere la forza d'attrito statico generata dal precarico $ F_2 $. Possiamo ricavare questa forza dalla (4);
 
-A seconda dei coefficienti d'attrito e dell'angolo $ \alpha $ la forza di sblocco $ F_s $ potrebbe essere maggiore di $ F_b $t. Questo potrebbe essere un problema se l'attuatore che genera le forze non riesce a generarne due diverse per il blocco e lo sblocco.
-Aggiungiamo quindi il vincolo che $ F_s  < F_b $
+A seconda dei coefficienti d'attrito e dell'angolo $ \alpha $ la forza di sblocco $ F_s $ potrebbe essere maggiore di $ F_b $. Questo potrebbe essere un problema se l'attuatore che genera le forze non riesce a generarne due diverse per il blocco e lo sblocco.
+Aggiungiamo quindi il vincolo che $ |F_s|  < F_b $.
+
+<br>
 
 ### Conclusioni
 
-Sostituendo $ F_2 $ nella (4) e otteniamo la forza di sblocco $ F_s $ in funzione della forza di blocco $ F_b $.
+Sostituendo $ F_2 $ nella (4) otteniamo la forza di sblocco $ F_s $ in funzione della forza di blocco $ F_b $.
 
 $$
 (3) F_2=F_b\cot(\alpha+2\varphi_d)
 $$
 
 $$
-(4) F_s=F_2\tg(\alpha-2\varphi_s)
+(4) F_s=F_2\tan(\alpha-2\varphi_s)
 $$
 
 $$
 (5)
 \boxed{
-F_s=F_b\cot(\alpha+2\varphi_d)\tg(\alpha-2\varphi_s)
+F_s=F_b\cot(\alpha+2\varphi_d)\tan(\alpha-2\varphi_s)
 }
 $$
 
-modo che Sostituendo
 In questo questo grafico possiamo vedere le funzioni e i punti caratteristici del funzionamento.
 
 ![Grafico riassuntivo](/grafico_finale.png)
 
-- La funzione (3) del moto diretto è in blu e rappresenta $F_2$ al variare di $\alpha $ per $F_b =1$ e con un angolo d'attrito dinamico di $\varphi=20°$.
+- La funzione (3) del moto diretto è in blu e rappresenta $F_2$ al variare di $\alpha $ per $F_b =1$ e con un angolo d'attrito dinamico di $\varphi_d=20°$.
 
-- La funzione (5) è in rosso e rappresenta $F_s$ al variare di $ \alpha $ sempre con per $F_b =1$ e con un angolo d'attrito statico $\varphi=27.5° $.
+- La funzione (5) è in rosso e rappresenta $F_s$ al variare di $ \alpha $ sempre con per $F_b =1$ e con un angolo d'attrito statico $\varphi_s=27.5° $.
 
-- Il punto A (12°,078) rappresenta un ipotetico cuneo con $ \alpha =12° $ che spinto da una forza $F_b = 1$ genera una forza $F_2 = 0.78F_b$.
+- Il punto A (12°, 0.78) rappresenta un ipotetico cuneo con $ \alpha =12° $ che spinto da una forza $F_b = 1$ genera una forza $F_2 = 0.78F_b$.
 
-- Il punto B (12°, -0.73) rappresenta la forza necessaria per sbloccare il cuneo, con $ \alpha =12° $,che è stato bloccato con $F_b = 1 => F_s = 0.73F_b$.
+- Il punto B (12°, -0.73) rappresenta la forza necessaria per sbloccare il cuneo, con $ \alpha =12° $,che è stato bloccato con $F_b = 1$ da cui $ F_s = -0.73F_b$.
 
-- Il punto C (7.5°, -1) sulla funzione (5) è il limite sotto il quale è necessario applicare una forza, in modulo, maggiore di $ F_b $ per estrarre il cuneo di quella usata per inserirlo.
+- Il punto C (7.5°, -1) sulla funzione (5) è il limite sotto il quale è necessario applicare una forza, in modulo, maggiore di $ F_b $ per estrarre il cuneo.
 
 - Il punto D (7.5, 0.92) rappresenta un ipotetico cuneo al limite di sblocco con $ \alpha =7.5° $ che genera una forza $F_2 = 0.92F_b$.
 
+Scarica il [grafico riassuntivo GeoGebra](./grafico_geogebra.ggb) e aprilo dalla pagina di [GeoGebra](https://www.geogebra.org/calculator).
+Questo ti aiuterà a scegliere l'angolo $ \alpha $ per il tuo meccanismo. 
 
-Questo grafico ci aiuta a scegliere l'angolo $ \alpha $ per il nostro meccanismo. Ovviamente è bene tutelarsi dalle variazioni dei coefficienti d'attrito: Lo sporco, imprecisioni nella costruzione, variazione nella lubrificazione, temperatura, usura, ecc. possono alterare il funzionamento fino a bloccarlo. Le fasce che vedi intorno al grafico della (3) e della (5) rappresentano un intervallo di incertezza dei coefficienti di soli $ \pm 2.5°$. Quindi tieniti lontano da C.
+Ovviamente è bene tutelarsi dalle variazioni dei coefficienti d'attrito: Lo sporco, imprecisioni nella costruzione, variazione nella lubrificazione, temperatura, usura, ecc. possono alterare il funzionamento fino a bloccarlo. Per valutare l'effetto dell'incertezza/variazione dei coefficienti d'attrito ho aggiunto le fasce che vedi intorno al grafico della (3) e della (5). Rappresentano un intervallo dei coefficienti di soli $ \pm 2.5°$.
+**Quindi tieniti lontano da C.**
 
 
 

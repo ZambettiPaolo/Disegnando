@@ -134,8 +134,8 @@ hiddenInSingle = false
 
 
 [params.editPost]
-URL = "https://github.com/<path_to_repo>/content"
-Text = "Suggest Changes"
+URL = "https://github.com/ZambettiPaolo/Disegnando/tree/main/content"
+Text = "Suggerisci delle modifiche"
 appendFilePath = true
 
 
