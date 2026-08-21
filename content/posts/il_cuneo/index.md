@@ -1,6 +1,6 @@
 +++
 date = '2026-08-08T22:01:32+02:00'
-draft = true
+draft = false
 title = 'Il cuneo'
 math = true
 description = "Un semplice meccanismo applicabile a molti problemi"
