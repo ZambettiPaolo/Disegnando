@@ -2,25 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/attrito/</loc>
-    <lastmod>2026-08-08T22:01:32+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-08-08T22:01:32+02:00</lastmod>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-08T22:01:32+02:00</lastmod>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/il_cuneo/</loc>
-    <lastmod>2026-08-08T22:01:32+02:00</lastmod>
+    <loc>http://localhost:1313/tags/easygantt/</loc>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/meccanismi/</loc>
-    <lastmod>2026-08-08T22:01:32+02:00</lastmod>
+    <loc>http://localhost:1313/posts/easygantt-0-5-1/</loc>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gantt/</loc>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/open-source/</loc>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-08-08T22:01:32+02:00</lastmod>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/project-management/</loc>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/software/</loc>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-10-23T17:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/attrito/</loc>
+    <lastmod>2026-09-01T17:42:26+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/dal_cuneo_alla_camma/</loc>
+    <lastmod>2026-09-01T17:42:26+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/meccanismi/</loc>
+    <lastmod>2026-09-01T17:42:26+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/macchine/</loc>
+    <lastmod>2026-08-21T17:09:56+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/flessibilita_macchine/</loc>
+    <lastmod>2026-08-21T17:09:56+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/il_cuneo/</loc>
     <lastmod>2026-08-08T22:01:32+02:00</lastmod>
   </url>
 </urlset>

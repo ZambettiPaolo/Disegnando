@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Disegnando</title>
+    <link>http://localhost:1313/categories/software/</link>
+    <description>Recent content in Software on Disegnando</description>
+    <image>
+      <title>Disegnando</title>
+      <url>http://localhost:1313/images/disegnando_open_graph.png</url>
+      <link>http://localhost:1313/images/disegnando_open_graph.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Fri, 23 Oct 2026 17:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EasyGANTT 0.5.1: pianificare simulando l&#39;incertezza</title>
+      <link>http://localhost:1313/posts/easygantt-0-5-1/</link>
+      <pubDate>Fri, 23 Oct 2026 17:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/easygantt-0-5-1/</guid>
+      <description>EasyGANTT 0.5 introduce la timeline verticale, il Gantt fantasma per l&amp;#39;incertezza, le durate in ore e i riferimenti di start: un simulatore per esplorare decisioni, non solo un disegno del progetto.</description>
+    </item>
+  </channel>
+</rss>

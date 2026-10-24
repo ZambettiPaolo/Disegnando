@@ -3,7 +3,7 @@ baseURL = "https://disegnando.com/"
 title = "Disegnando"
 paginate = 5
 theme = "PaperMod"
-languageCode = "it-it"
+locale = "it-IT"
 defaultContentLanguage = "it"
 DateFormat = "02/01/2006"
 

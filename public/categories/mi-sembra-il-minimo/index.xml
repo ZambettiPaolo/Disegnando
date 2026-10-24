@@ -10,7 +10,15 @@
       <link>http://localhost:1313/images/disegnando_open_graph.png</link>
     </image>
     <generator>Hugo</generator>
-    <language>it-it</language>
+    <language>it-IT</language>
+    <lastBuildDate>Fri, 21 Aug 2026 17:09:56 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/mi-sembra-il-minimo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flessibilita_macchine</title>
+      <link>http://localhost:1313/posts/flessibilita_macchine/</link>
+      <pubDate>Fri, 21 Aug 2026 17:09:56 +0200</pubDate>
+      <guid>http://localhost:1313/posts/flessibilita_macchine/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -10,9 +10,16 @@
       <link>http://localhost:1313/images/disegnando_open_graph.png</link>
     </image>
     <generator>Hugo</generator>
-    <language>it-it</language>
-    <lastBuildDate>Sat, 08 Aug 2026 22:01:32 +0200</lastBuildDate>
+    <language>it-IT</language>
+    <lastBuildDate>Tue, 01 Sep 2026 17:42:26 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/attrito/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dal cuneo alla camma</title>
+      <link>http://localhost:1313/posts/dal_cuneo_alla_camma/</link>
+      <pubDate>Tue, 01 Sep 2026 17:42:26 +0200</pubDate>
+      <guid>http://localhost:1313/posts/dal_cuneo_alla_camma/</guid>
+      <description>Prendi un cuneo e avvolgilo intorno ad un asse ottieni una camma</description>
+    </item>
     <item>
       <title>Il cuneo</title>
       <link>http://localhost:1313/posts/il_cuneo/</link>

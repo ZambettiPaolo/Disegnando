@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Macchine on Disegnando</title>
+    <link>http://localhost:1313/categories/macchine/</link>
+    <description>Recent content in Macchine on Disegnando</description>
+    <image>
+      <title>Disegnando</title>
+      <url>http://localhost:1313/images/disegnando_open_graph.png</url>
+      <link>http://localhost:1313/images/disegnando_open_graph.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Fri, 21 Aug 2026 17:09:56 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/macchine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sulla flessibilità delle macchine</title>
+      <link>http://localhost:1313/posts/flessibilita_macchine/</link>
+      <pubDate>Fri, 21 Aug 2026 17:09:56 +0200</pubDate>
+      <guid>http://localhost:1313/posts/flessibilita_macchine/</guid>
+      <description>&lt;p&gt;Uno dei requisti più importanti di una macchina è la flessibilità, ovvero il numero di tipi di prodotto che può realizzare.&lt;/p&gt;
+&lt;p&gt;Perché non costruire una macchina universale che produce qualsiasi cosa? perché limitarsi a costruire una macchina che produce uno o pochi tipi? Qual è il limite della flessibilità?&lt;/p&gt;
+&lt;p&gt;Per rispondere a queste domande analizziamo il costo di una macchina in funzione della sua flessibilità. Più tipi produce più meccanismi dovranno essere installati e, continuando ad aggiungerne, la macchina diventerà sempre più grande e complessa. è ragionevole pensare che la funzione costo-flessibilità c=f(n) sia una curva crescente che cresce sempre più rapidamente.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

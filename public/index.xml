@@ -10,9 +10,32 @@
       <link>http://localhost:1313/images/disegnando_open_graph.png</link>
     </image>
     <generator>Hugo</generator>
-    <language>it-it</language>
-    <lastBuildDate>Sat, 08 Aug 2026 22:01:32 +0200</lastBuildDate>
+    <language>it-IT</language>
+    <lastBuildDate>Fri, 23 Oct 2026 17:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EasyGANTT 0.5.1: pianificare simulando l&#39;incertezza</title>
+      <link>http://localhost:1313/posts/easygantt-0-5-1/</link>
+      <pubDate>Fri, 23 Oct 2026 17:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/easygantt-0-5-1/</guid>
+      <description>EasyGANTT 0.5 introduce la timeline verticale, il Gantt fantasma per l&amp;#39;incertezza, le durate in ore e i riferimenti di start: un simulatore per esplorare decisioni, non solo un disegno del progetto.</description>
+    </item>
+    <item>
+      <title>Dal cuneo alla camma</title>
+      <link>http://localhost:1313/posts/dal_cuneo_alla_camma/</link>
+      <pubDate>Tue, 01 Sep 2026 17:42:26 +0200</pubDate>
+      <guid>http://localhost:1313/posts/dal_cuneo_alla_camma/</guid>
+      <description>Prendi un cuneo e avvolgilo intorno ad un asse ottieni una camma</description>
+    </item>
+    <item>
+      <title>Sulla flessibilità delle macchine</title>
+      <link>http://localhost:1313/posts/flessibilita_macchine/</link>
+      <pubDate>Fri, 21 Aug 2026 17:09:56 +0200</pubDate>
+      <guid>http://localhost:1313/posts/flessibilita_macchine/</guid>
+      <description>&lt;p&gt;Uno dei requisti più importanti di una macchina è la flessibilità, ovvero il numero di tipi di prodotto che può realizzare.&lt;/p&gt;
+&lt;p&gt;Perché non costruire una macchina universale che produce qualsiasi cosa? perché limitarsi a costruire una macchina che produce uno o pochi tipi? Qual è il limite della flessibilità?&lt;/p&gt;
+&lt;p&gt;Per rispondere a queste domande analizziamo il costo di una macchina in funzione della sua flessibilità. Più tipi produce più meccanismi dovranno essere installati e, continuando ad aggiungerne, la macchina diventerà sempre più grande e complessa. è ragionevole pensare che la funzione costo-flessibilità c=f(n) sia una curva crescente che cresce sempre più rapidamente.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Il cuneo</title>
       <link>http://localhost:1313/posts/il_cuneo/</link>
